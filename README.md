@@ -51,6 +51,9 @@ You can try these on your Streamlit app:
 ```bash
 git clone https://github.com/Haftom2323/GraphTalk.git
 cd GraphTalk
+```
+---
+
 ## Install dependencies
 
 ```bash
