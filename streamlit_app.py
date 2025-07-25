@@ -20,6 +20,7 @@ examples = [
     "Who are the top 3 most prolific actors by number of movies?",
     "Which movies did Tom Hanks act in?",
     "What movies did Keanu Reeves star in?",
+    "Show me movies that Meg Ryan acted in?"
 ]
 
 with st.expander("Need inspiration?"):
