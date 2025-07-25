@@ -8,7 +8,7 @@ def answer_user_question(question: str):
     print(f"\n Cypher Query:\n{cypher}")
     results = query_neo4j(cypher)
     print(f"\n Raw Results:\n{results}")
-    answer = format_results(results)
+    answer = format_results(question, results)
     print(f"\n Answer:\n{answer}")
 
 if __name__ == "__main__":

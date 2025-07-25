@@ -35,7 +35,7 @@ if st.button("Ask") and question.strip():
         try:
             cypher = translate_to_cypher(question)
             results = query_neo4j(cypher)
-            answer = format_results(results)
+            answer = format_results(question, results)
 
         except Exception as e:
             st.error(f"Error: {e}")
